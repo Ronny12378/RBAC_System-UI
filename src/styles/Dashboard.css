@@ -1,0 +1,357 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9ecef; /* Lighter background */
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px; /* Increased padding */
+    background: #ffffff;
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+  }
+
+/* Styles for the user list table */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.user-table td button {
+  margin-right: 5px;
+}
+
+/* Styles for user details */
+.user-details {
+  margin-top: 20px;
+  padding: 15px;
+  border-top: 1px solid #ccc;
+}
+
+.user-info {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+.user-info p {
+  margin: 5px 0;
+}
+
+/* Add Role Form Styling */
+.add-role-form input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.add-role-form .permissions-checkboxes {
+  margin-bottom: 10px;
+}
+
+.add-role-form .permissions-checkboxes div {
+  margin-bottom: 5px;
+}
+
+.add-role-form label {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.add-role-form button {
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-role-form button:hover {
+  background-color: #45a049;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+td button:hover {
+  background-color: #3e8e41
+}
+
+td button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+td button{
+  /* background-color: #25802a; */
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+
+}
+
+td label {
+  font-size: 14px;
+}
+/* Simple form styles */
+form {
+  margin-bottom: 20px;
+  /* margin-top: 10px; */
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+  /* margin-top: 10px; */
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for Add New User Form */
+.add-user-form input {
+  margin: 5px;
+  padding: 8px;
+  width: 200px;
+}
+
+.add-user-form button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-user-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+/* Styling checkboxes for the permissions */
+input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+/* Aligning checkboxes properly in the form */
+.permissions-section {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Styling form fields to make them aligned nicely */
+.permissions-section label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px; 
+    color: #010700; 
+    font-size: 2.5rem; 
+  }
+  
+  h2 {
+    margin-bottom: 25px; 
+    color: #333;
+    font-size: 1.75rem; 
+  }
+  
+  .section-card {
+    padding: 25px; /* Increased padding */
+    margin-bottom: 25px; /* Increased margin */
+    background-color: #ffffff;
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+  }
+  
+  input, select {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px; /* Increased margin */
+    padding: 12px; /* Increased padding */
+    border: 1px solid #ccc; /* Softer border */
+    border-radius: 8px; /* More rounded corners */
+    font-size: 1rem;
+    transition: border 0.3s; /* Transition for border */
+  }
+  
+  input:focus, select:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px; /* Increased padding */
+    border-radius: 8px; /* More rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Added transform */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Added margin for spacing */
+  }
+  
+  table th, table td {
+    padding: 15px; /* Increased padding */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f1f1f1; /* Row hover effect */
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+    
+    h1 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+    
+    h2 {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  }
